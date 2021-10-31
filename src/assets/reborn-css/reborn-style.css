@@ -1,0 +1,231 @@
+/*body { background-color: rgb(53, 95, 161);}
+#section-dx { background-color: rgb(186, 204, 235); }
+#aside-sx { background-color: rgb(110, 127, 156); }
+#list-comments { margin-top:30px;}
+
+
+
+.btn .badge { background-color: #730093; }
+.btn-role { background-color: #0f0f0f; border-color:#0f0f0f; }
+
+
+.text-description {font-size: 0.8rem; text-align: justify;}  */
+
+
+h1 {
+    color: #8c124a;
+}
+
+
+.assistenza {
+    position: relative;
+}
+
+
+/*home*/
+
+.cardUsato {
+    border-color: black;
+    margin-left: 1px;
+    margin-bottom: 3px;
+}
+
+.imm {
+    overflow: hidden;
+}
+
+
+/*navigazione */
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #daa621;
+}
+
+.nav-link:active {
+    color: #daa621;
+    font-weight: bold;
+}
+
+.navigazione {
+    background-color: #1d2142 ;
+    position: sticky;
+}
+
+.btnDettaglio {
+    font-size: 80%;
+}
+.ContainerItems{
+ border: solid red 2px;
+padding: 5px;
+}
+
+/*Marketplace*/
+
+
+
+.carrello {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 270px;
+}
+
+.titolo{
+    padding-top: 9px;
+}
+
+.prodotto{
+    border: 2px black;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.acquisto{ 
+    position:relative; 
+    left:25%;
+
+}
+
+
+/*Pagina prodotto*/
+
+.btn-invia {
+    background-color: #d3d3d3;
+    color:black;
+    
+}
+.scopridipiu{
+    padding-left: 3%;
+}
+.commenti{
+    background-color: aquamarine;
+    margin-top: 40px;
+}
+.commentirecenti {
+    text-align: center;
+}
+
+.altricommenti {
+    text-align: center;
+}
+
+
+
+/* Carrello */
+
+.rimuovi {
+    background-color: #f9f9f9;
+    border-radius: 3px;
+}
+
+.rimuovi:hover {
+    background-color: #808080;
+    border-radius: 3px;
+    color:white;
+}
+
+.btn-totaleprovvisorio {
+    background-color: #daa621;
+    color: #1d2142;
+    font-weight: bold;
+}
+
+.btn-totaleprovvisorio:hover {
+    background-color:#1d2142;
+    color: #daa621 ;
+    font-weight: bold;
+    border: #1d2142;
+}
+.btn-procediacquisto {
+    background-color: #daa621;
+    color: #1d2142;
+    font-weight: bold;
+}
+
+.btn-procediacquisto:hover {
+    background-color:#1d2142;
+    color: #daa621 ;
+    font-weight: bold;
+    border: #1d2142;
+}
+
+.desideri {
+    padding-top: 16px;
+}
+
+.btn-color {
+    background-color: #daa621;
+    color: #1d2142;
+    font-weight: bold;
+}
+
+.btn-color:hover {
+    background-color:#1d2142;
+    color: #daa621 ;
+    font-weight: bold;
+    border-color: #daa621;
+}
+.bg-color {
+    background-color: #1d2142;
+}
+
+/*Vendi prodotto*/
+
+.nuovoaccount {
+    padding-left: 40px;
+}
+
+.invia {
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    .mobile { 
+        display:inline-block; }
+    .desktop {
+        display: none; }
+    .navmobile {
+        border: 3px;
+        border-color: white;
+    }
+    /*home*/
+
+    .containernuovo{
+        justify-content: center;
+    }
+
+    .formregalo{
+        padding-bottom: 2%;
+    }
+    .imgcarrello{
+        padding-top: 10px;
+    }
+    .contenitorecarrello{
+        padding-top:2%;
+
+    }
+    .aside{
+        background-color: #faebd7;
+        padding-top: 5%;
+        margin-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    }
+    
+
+@media screen and (max-width: 2000px) {
+    .mobile {
+        display: none;  }
+    }
+
+/*piccolezze*/
+
+.badge-light { background-color: #1d2142; padding:10px 10px 10px 10px;}
+.ratingxs { background-color: #daa621; padding:5px; border-radius: 15px;}
+.log-select { padding:3px;}
+#underrow { background-color: #e2e2e2;}
+
